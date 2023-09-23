@@ -1,0 +1,6 @@
+com\kaiburr\task1\controller\ServerController.class
+com\kaiburr\task1\repository\ServerRepository.class
+com\kaiburr\task1\service\ServerServiceImpl.class
+com\kaiburr\task1\model\Server.class
+com\kaiburr\task1\service\ServerService.class
+com\kaiburr\task1\DemoApplication.class
