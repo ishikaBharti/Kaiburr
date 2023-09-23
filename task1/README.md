@@ -17,21 +17,21 @@
 
 
 ## Rest  API Endpoints and Resources
-Rest API Endpoint is mapped to `http://127.0.0.1:9090/servers/`
+Rest API Endpoint is mapped to `http://127.0.0.1:6060/servers/`
 
-- PUT a server	`http://127.0.0.1:9090/servers/createServer`
+- PUT a server	`http://127.0.0.1:6060/servers/createServer`
 Accept "server" object in body in json format.
 
-- GET servers	`http://127.0.0.1:9090/servers/getServer`
+- GET servers	`http://127.0.0.1:6060/servers/getServer`
 Returns a list of "server" objects.
 
-- GET server	by ID	`http://127.0.0.1:9090/servers/getServer?id=<ID>`
+- GET server	by ID	`http://127.0.0.1:6060/servers/getServer?id=<ID>`
 Returns a  "server" object matching with ID.
 
-- GET servers	by Name	`http://127.0.0.1:9090/servers/getServer?name=<Nmae>`
+- GET servers	by Name	`http://127.0.0.1:6060/servers/getServer?name=<Nmae>`
 Returns a list of "server" objects matching with Name.
 
-- DELETE server	`http://127.0.0.1:9090/servers/deleteServer?id=<ID>`
+- DELETE server	`http://127.0.0.1:6060/servers/deleteServer?id=<ID>`
 Deletes a  "server" object matching with ID.
 
 ## RestController interface extends MongoRepository
@@ -52,7 +52,7 @@ List<Server> findByName(String name);
 
 Run the following created collection to Test and consume the APIs
 
-**NOTE:** *The above collection is created and tested for `http://127.0.0.1:9090/servers/` endpoint*
+**NOTE:** *The above collection is created and tested for `http://127.0.0.1:6060/servers/` endpoint*
 
 ### Screenshots
 **MONGODB URL AND LOCAL HOST SERVER**
